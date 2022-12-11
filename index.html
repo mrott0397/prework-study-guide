@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section"> 
@@ -43,14 +44,48 @@
           <li>The a element (which stabds for anchor) creates links to the same webpage or others. The href attribute points to the url for the link</li>
           <li>The alt attribute contains a text string that describes the apperance and functionality of the image. The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings</li>
           <li>The footer element appears at the bottom of the page and usually contains the author, copywrite, contacts, site map, and navigation</li>
-          <li>Section elements are semantic elements that define a section in a document that contains thematic content</li>
+          
          </ul>
         </section>
       
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS Notes Here</li>
+          <li>To add style to your webpage, you use Cascading Style Sheets (CSS) which is a programming language used by developers to define how the webpage content is presented to users.</li>
+          <li>CSS defines the colors, aesthetics, visual layout, and orginization</li>
+          <li>There are three ways to style a webpage using CSS: Inline CSS, Internal CSS Style Sheet, External CSS Style Sheet.</li>
+          <li>When a developer wants to style an element directly in the HTML file, they use Inline CSS.</li>
+          <li>Inline styles apply to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only.</li>
+          <li>Inline styles are useful for quick and permanent changes but are less flexible  than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+          <li>An ecample of inline css is using the style attribute to change the color of a single h1 heading: h1 style= "color:red;"</li>
+          <li>It is possible to embed an entire style sheet directly into the HTML file using a style element in the head element. This internal style sheet contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and ID's.</li>
+          <li>A single change to the CSS rule with apply to all the tagged page elements.</li>
+          <li>The most common way to style a webpage is by usiong an external CSS style sheet.</li>
+          <li>External CSS style sheet is preffered in most cases because it allows developers to keep all their CSS rules in a seperate file, which makes design changes easier.</li>
+          <li>When using an external style sheet, we link the file using a link element placed in the HTML's head.</li>
+          <li>Seperation of concerns is a widely used term in web development and refers to seperating code into different filed based on use. This is based on the idea that each section of code should have its own responsibility.</li>
+          <li>A selector defines the element or attributes to which the rules, or declarations will apply.</li>
+          <li>Declarations contain two important components: 1. The CSS property we want to apply 2. Value of the property. For example: The declaration color:blue; includes the CSS property COLOR and the value for that property, BLUE.</li>
+          <li>The margin property acts much like a margin in a word proccesing document. A margin property indicates how much space we want around the outside of an element.</li>
+          <li>The margin is not visible on the page; it merely adds a buffer</li>
+          <li>When we set the margin property to 0, we are indicating that we want NO extra space.</li>
+          <li>The padding property adds a space around the content inside an element. When you increase padding, you make the entire element bigger.</li>
+          <li>*: To apply rule to all visible elements.</li>
+          <li>Section elements are semantic elements that define a section in a document that contains thematic content</li>
+          <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained.</li>
+          <li>text-align: One way to center a title or heading.</li>
+          <li>display:block; : the display property is assigned with the block value, which assigns each iage to start a new line.</li>
+          <li>fontsize</li>
+          <li>Add CSS file to head section with meta.</li>
+          <li>rel: Specifies the relationship between the current document and the linked document source.</li>
+          <li>href: Specifies the location (URL) of the external resource. href is using a relative path, this means the location is derived fromm the current location.</li>
+          <li>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a class selector. Then the class attributes can be assigned to the element in the HTML, enabling us to freely choose which elements will be assigned the CSS rule.</li>
+          <li>Class selector: .card</li>
+          <li>.card: The peroid preceding card designates this as a class selector. Any HTML element assigned to the class, will gaine the property assignments from the CSS.</li>
+          <li>The box-shadow CSS property adds shadow effects around an element frame. You can set multiple effects seperated by commas.</li>
+          <li>A box shadow is described by X and Y offsets relative to the element, blur, and spread radius, and color.</li>
+          <li>Assigning colors in CSS can be done in many ways, including, by semantic refrences such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #</li>
+
         </ul>
       </section>
 
@@ -78,5 +113,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
