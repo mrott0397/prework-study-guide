@@ -44,6 +44,8 @@
           <li>The a element (which stabds for anchor) creates links to the same webpage or others. The href attribute points to the url for the link</li>
           <li>The alt attribute contains a text string that describes the apperance and functionality of the image. The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings</li>
           <li>The footer element appears at the bottom of the page and usually contains the author, copywrite, contacts, site map, and navigation</li>
+          <li>Section elements are semantic elements that define a section in a document that contains thematic content</li>
+          <li>An important takeaway is that we can use semantic HTML elements to indicate the roll of their content, as well as to give structure to the content</li>
           
          </ul>
         </section>
@@ -96,6 +98,22 @@
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
           <li>git checkout main: switch to the main branch</li>
           <li>git pull origin main: pull down thr latest main branch</li>
+          <li>git add -A : Add changed files in our working directory to the staging area of git. Stage your changes.</li>
+          <li>add -A : to commit all files to the working branch</li>
+          <li>git commit -m "message" : commit to repository. we use the -m flag to associate a message with our commit. Commit messages should be short descriptive messages of the changed implimented.</li>
+          <li>You need to sync your local branch with the remote branch in GitHub.</li>
+          <li>git pull origin main : Pull in the base branch</li>
+          <li>git oush origin "branch name" : Push up all changes</li>
+          <li>Git is the most commonly used version control software</li>
+          <li>Git: Is a versio control system that lets you manage and keep track of each version of your project. To access Git, we use the command line. Git commands are not the same as bash commands used to navigate and create directories or perform other tasks. Git commands always start with git and are used to save and track versions of your code. Using git commands, we can initiate (or create) a repo, add our code to the repo,and view the different versions of our code, which are all stored to a unique commit</li>
+          <li>GitHub is a cloud based hosting service that allows us to keep track of our project inside repositories that are stored remotely.</li>
+          <li>Repository(repo): A folder in which all files and their version histories are stored.</li>
+          <li>Branch: A work space in which you can make changes that wont affect the life site.</li>
+          <li>Markdown(.md): A way to write in GitHub that converts plain text to GitHub code. Sites such as Atom and Sublime.</li>
+          <li> Commit Changes; A saved record of a change mode to a file within the repo.</li>
+          <li>Pulle Request(PR): The way to ask for changes made to a branch to be merged into another branch that also allows for multiple users to see, discuss, and review work being done.</li>
+        
+          
         </ul>
       </section>
       <section class="card" id="javascript-section"> 
@@ -123,11 +141,24 @@
           <li>An Array is a single variable that is used to hold a group of data.</li>
           <li>Arrays are typically used to hold data that is related in some way.</li>
           <li>The following variable declaration demonstrates how we would represent our group of shapes in an array named shapes: var shapes = ["triangle", "pentagon", "square", "circle"];</li>
-          
+          <li>Arrays are not limited to contain only a single type of data. A single array can store different types of data, such as strings, numbers, and so on.</li>
+          <li>Following example has info about a student named Lu; name age, and whether he is enrolled: var studentInfo = ["Lu", 54, true]; Lu is a string, needs quotation marks, 54 is a number, true i a Boolean value</li>
+          <li>To work with individual data items inside an array, we need one more piece of information: the location of the data item in the array. This location is identified with a unique number called an index.</li>
+          <li>In JavaScript and other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1.</li>
+          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. Developers must use another statement, such as the conditional if statement</li>
+          <li>By using the for loop, we can tell the computer to go through each of the shapes (items) in our array and log them to the console until there are none left.</li>
+          <li>In order to use the for loop, we need the shapes(item) index and the arrays length. The array length is important because the for loop needs to know how many times the code will run until there are no items left in the array.</li>
+          <li>We can find the length of the array by using a built-in property of an array, named length.</li>
+          <li>A for loop contains the following thre important statements: 1.The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code: var x = 0; 2.The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition, as shown: x < shapes.length; 3.The final statement is what allows the array to iterate over each item. Since indices is what allow the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut for x+1 Now everytime the code loops, x will increase by 1.</li>
+          <li>Commenting out code makes it inactive without deleting it: /* before block of code and */ after.</li>
+          <li>At the most basic level, a function is a set of instructions that tells the computer how to perform a certain task.</li>
+          <li>A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file is run. Instead, you must call a function by name in order to execute it.</li>
+          <li>To create a function, we use the function keyword, similar to how we used the var keyword to declare a new variable. Then we will give the function a unique name and use that whenever we call the function.</li>
+          <li>A functions name is followed by parentheses ()</li>
+          <li>Math functions selects a random number.</li>
 
-          <li></li>
 
-          </li>
+        
         </ul>
       </section>
 
